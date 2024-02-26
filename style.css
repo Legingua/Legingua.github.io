@@ -3,15 +3,15 @@
     src: url("rubik-variablefont_wght-webfont.woff") format("woff"),
     }
 
+body {
+    background-color: #4682B4;
+    font-family: "Rubik";    
+}
+
 .Boykisser {
     text-align: center;
     margin-top: 20px ;
     width: 100%;
-}
-
-body {
-    background-color: #4682B4;
-    font-family: "Rubik";    
 }
 
 .intro {
@@ -19,12 +19,16 @@ body {
     color: #A7C7E7;
 }
 
-.boybuttontext{
-    text-align: center;
-    color: #A7C7E7;
+.intro img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50px;
+    overflow: hidden;
+    perspective: 1px;
+    margin-top: 20px;
 }
 
-.boybutton{
+.intro a{
     text-align: center;
     font-family: "Rubik";
     color: #A7C7E7;
@@ -36,14 +40,14 @@ body {
     Border-radius: 12px;
     transition: all 0.5s ease;
     font-size: 30px;
-
+    margin: 20px;
 }
 
-.boybutton:hover{
+.intro a:hover{
     color: #EEE;
 }
 
-.back{
+.button{
     text-align: center;
     font-family: "Rubik";
     color: #A7C7E7;
@@ -54,27 +58,15 @@ body {
     Padding: 8px 22px;
     Border-radius: 12px;
     transition: all 0.5s ease;
-    font-size: 15px;
+    font-size: 30px;
+    margin: 20px;
 }
 
-.back:hover{
+.button:hover{
     color: #EEE;
 }
 
-.hehepic{
-    text-align: center;
-    margin-top: 20px;
-}
-
-.hehepic img{
-    height: 150px;
-    width: 150px;
-    border-radius: 50px;
-    overflow: hidden;
-    perspective: 1px;
-}
-
-.hpageintro{
-    text-align: center;
-    font-size: 20px;
+.footer{
+    position: relative;
+    bottom: -100px;
 }
