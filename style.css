@@ -3,6 +3,13 @@
     src: url("rubik-variablefont_wght-webfont.woff") format("woff"),
     }
 
+a{
+    text-decoration: none;
+    font-weight: bolder; 
+    font-size: 30px;
+    color: #A7C7E7;
+}
+
 body {
     background-color: #4682B4;
     font-family: "Rubik";    
@@ -28,33 +35,30 @@ body {
     margin-top: 20px;
 }
 
-.intro a{
+.section_btn{
+    display: flex;
+    margin: 0 auto;
+    width: 730px;
+}
+
+.btn{
     text-align: center;
-    font-family: "Rubik";
-    color: #A7C7E7;
     background-color: #5F9EA0;
-    text-decoration: none;
-    font-weight: bolder;
     border: 5px outset ;
     Padding: 8px 22px;
     Border-radius: 12px;
     transition: all 0.5s ease;
-    font-size: 30px;
-    margin-bottom: 20px;
-    margin-right: 30px;
+    margin: 15px;
 }
 
-.intro a:hover{
+.btn:hover{
     color: #EEE;
 }
 
 .button{
     text-align: center;
-    font-family: "Rubik";
-    color: #A7C7E7;
     background-color: #5F9EA0;
     text-decoration: none;
-    font-weight: bolder;
     border: 5px outset ;
     Padding: 8px 22px;
     Border-radius: 12px;
@@ -70,4 +74,10 @@ body {
 .footer{
     position: relative;
     bottom: -100px;
+}
+
+@media screen and (max-width: 575px){
+    .section_btn{
+        display: contents;
+    }
 }
